@@ -7,9 +7,7 @@ public class TimeSlot implements ResourceTypeInterface{
 
     public TimeSlot(){}
 
-    public int findFreeSlot(){
-  
-    }
+   
 
     public void markSlotBusy(int resourceId){
 

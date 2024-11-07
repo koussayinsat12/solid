@@ -8,7 +8,7 @@ public class ResourceAllocator
     {
         int resourceId;
         
-        resourceId = resourceType.findFreeSlot;
+        resourceId = findFreeSlot();
 
         resourceType.markSlotBusy(resourceId)
 
@@ -22,5 +22,11 @@ public class ResourceAllocator
          
      
     }
+
+    private int findFreeSpaceSlot()
+    {
+        return 0;
+    }
+
     
 }
